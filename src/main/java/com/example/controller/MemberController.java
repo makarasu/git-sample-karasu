@@ -11,6 +11,7 @@ public class MemberController {
 	public String index() {
 
 		System.out.println("ポケモン");
+		System.out.println("松村北斗");
 		return "member2";
 
 	}
