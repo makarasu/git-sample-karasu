@@ -9,7 +9,7 @@ public class MemberController {
 	
 	@RequestMapping
 	public String index() {
-		return "finished";
+		return "member";
 	}
 
 }
