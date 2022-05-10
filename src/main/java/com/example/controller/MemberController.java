@@ -9,6 +9,7 @@ public class MemberController {
 	
 	@RequestMapping
 	public String index() {
+		System.out.println("ポケモン");
 		return "finished";
 	}
 
